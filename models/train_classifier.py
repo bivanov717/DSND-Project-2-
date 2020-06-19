@@ -20,9 +20,7 @@ import pickle
 from sklearn.pipeline import Pipeline, FeatureUnion
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
-from sklearn.metrics import confusion_matrix
-from sklearn.metrics import fbeta_score, make_scorer
-from sklearn.ensemble import GradientBoostingClassifier, RandomForestClassifier, AdaBoostClassifier
+from sklearn.ensemble import GradientBoostingClassifier, RandomForestClassifier
 from sklearn.model_selection import GridSearchCV
 from sklearn.feature_extraction.text import TfidfTransformer, CountVectorizer
 from sklearn.multioutput import MultiOutputClassifier
