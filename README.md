@@ -40,7 +40,7 @@ For this project there are 3 folders:
 
 To clone the git repository:
 
-```git clone https://github.com/canaveensetia/udacity-disaster-response-pipeline.git```
+```git clone https://github.com/bivanov717/DSND-Project-2-.git```
 
 ## Executing Program:
 You can run the following commands in the project's directory to set up the database, train model and save the model.
@@ -62,3 +62,19 @@ You can run the following commands in the project's directory to set up the data
 ## Home Page
 
 The home page contains summary charts describing the data set
+
+![](images/Chart%201.png)
+
+![](images/Chart%202.png)
+
+![](images/Chart%203.png)
+
+![](images/Chart%204.png)
+
+![](images/Chart%205.png)
+
+Inputting a message into the tool will use the model to classify a meesage
+
+![](images//Message%201.png)
+
+![](images/Message%202.png)
