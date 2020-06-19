@@ -73,6 +73,8 @@ The home page contains summary charts describing the data set
 
 ![](images/Chart%205.png)
 
+## Classify Message
+
 Inputting a message into the tool will use the model to classify a meesage
 
 ![](images//Message%201.png)
