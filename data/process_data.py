@@ -41,7 +41,7 @@ def clean_data(df):
     df: Dataframe to be cleaned
     
     OUTPUT
-    df: Cleaned dataframe - reformated and cleaned categories; removed duplicates
+    df: Cleaned dataframe - reformated and cleaned categories; removed duplicates; removed unusable features;
     """
     
     # create a dataframe of the 36 individual category columns
@@ -67,7 +67,7 @@ def clean_data(df):
     # drop duplicates
     df = df.drop_duplicates()
     
-    # remove child_alone as it has values of 0 only, hence has now meaningful contribution to the Machine Learning algorithm
+    # remove child_alone as it has values of 0 only, hence doesn't have a meaningful contribution to the Machine Learning algorithm
     df = df.drop(['child_alone'],axis=1)
     
     # Given that only 188 rows have values of 2 in the related column, this is considered as data error and the rows will be omitted. 
