@@ -5,8 +5,8 @@ This Project is part of Data Science Nanodegree Program by Udacity in collaborat
 
 The project consist of the following parts:
 1. ETL Pipeline to clean, normalize, tokenize and lemmatize the data
-2. Machine Learning Pipeline to build and train a model to cateogrize messages in the set categories
-3. Web App to show a summary of the results as well as a tool to cateogirze messages in real time
+2. Machine Learning Pipeline to build and train a model to categorize messages in the set categories
+3. Web App to show a summary of the results as well as a tool to categoirze messages in real time
 
 ## File Description
 
@@ -54,7 +54,7 @@ You can run the following commands in the project's directory to set up the data
 4. Go to http://0.0.0.0:3001/
 
 # Acknowledgements
-[Figure Eight](https://appen.com/) for providing the relevant dataset to build and trai the model
+[Figure Eight](https://appen.com/) for providing the relevant dataset to build and train the model
 
 
 # Screenshots
