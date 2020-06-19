@@ -63,26 +63,28 @@ model = joblib.load("models/classifier.pkl")
 def index():
     
     # extract data needed for visuals
-    # TODO: Below is an example - modify to extract data for your own visuals
+    # Genre Breakdown
     genre_counts = df.groupby('genre').count()['message']
     genre_percentage = round(100*genre_counts/genre_counts.sum(), 1)
     genre_names = list(genre_counts.index)
     
+    # Category Breakdown
     category_counts = df.iloc[:,4:].sum().sort_values(ascending=False)
     category_names = list(category_counts.index)
     
-    
+    # Category by news
     category_news_counts = df[df['genre']=='news'].iloc[:,4:].sum().sort_values(ascending=False)
     category_news_names = list(category_news_counts.index)
     
+    # Category by direct
     category_direct_counts = df[df['genre']=='direct'].iloc[:,4:].sum().sort_values(ascending=False)
     category_direct_names = list(category_direct_counts.index)
     
+    # Category by social
     category_social_counts = df[df['genre']=='social'].iloc[:,4:].sum().sort_values(ascending=False)
     category_social_names = list(category_social_counts.index)
     
     # create visuals
-    # TODO: Below is an example - modify to create your own visuals
     graphs = [
         #Graph 1
         {
