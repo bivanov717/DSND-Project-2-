@@ -29,7 +29,7 @@ For this project there are 3 folders:
 - Pandas v1.0.3
 - Numpy v1.18
 - Matplotplib v3.2.1
-- Sciki-Learn v0.22
+- Scikit-Learn v0.22
 - NLTK v3.5
 - SQLalchemy v1.3
 - Pickle v3.8.3
